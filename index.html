@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1ทิ้ง -->
+    <div>
+      <div class="container1" style="height: 400vh">
+        <div
+          class="relative h-screen bg-gradient-to-b from-[#FFD058] to-[#A7D5FF]"
+        >
+          <img
+            id="plastic1"
+            src="asset/bag/plastic1.svg"
+            class="h-1/4 w-1/4 rotate-45 absolute left-1/2 -translate-x-1/2 top-[210px]"
+          />
+          <img
+            id="hand"
+            src="asset/hand/hand.png"
+            class="absolute right-0 top-24"
+          />
+          <div class="h-1/2">
+            <div class="pt-16 flex-col flex items-center space-y-4">
+              <div class="text-white text-sm">start the journey</div>
+              <img src="asset/icon/down.png" class="animate-bounce" />
+            </div>
+          </div>
+          <div class="h-1/2 relative">
+            <img
+              src="asset/bin/bin.png"
+              class="h-4/5 absolute bottom-0 left-1/2 -translate-x-1/2"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- 2ลงทะเล -->
+      <div class="container2" style="height: 600vh">
+        <div
+          class="relative h-screen bg-[#A7D5FF] border-solid border-2 border-red-400"
+        >
+          <div class="h-1/2">
+            <img
+              src="asset/bg/sea-top.png"
+              class="absolute bottom-0 left-1/2 -translate-x-1/2"
+            />
+          </div>
+          <img
+            id="plastic2"
+            src="asset/bag/plastic1.svg"
+            class="h-1/4 w-1/4 absolute left-1/2 -translate-x-1/2 top-0"
+          />
+        </div>
+      </div>
+      <!-- 3เริ่มเป็นmicroplastic -->
+      <div class="container3" style="height: 800vh">
+        <div
+          class="relative h-screen bg-[#1F529A] border-solid border-2 border-red-400"
+        >
+          <div class="h-screen">
+            <img
+              src="asset/bg/seabg3.png"
+              class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2"
+            />
+          </div>
+          <div
+            id="text3"
+            class="absolute opacity-0 text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            พลาสติกบางส่วนจะเริ่มละลาย
+          </div>
+          <div
+            id="text3"
+            class="absolute opacity-0 text-white left-1/2 -translate-x-1/2 top-[520px]"
+          >
+            เป็นไมโครพลาสติก
+          </div>
+          <img
+            id="plastic3"
+            src="asset/bag/plastic1.svg"
+            class="h-1/4 w-1/4 rotate-45 absolute left-1/2 -translate-x-1/2 top-0"
+          />
+          <img
+            id="microplastic1"
+            src="asset/microplastic/microplastic.svg"
+            class="absolute h-1/3 w-1/3 left-1/2 -translate-x-1/2 top-[50px]"
+          />
+          <img
+            id="plankton1"
+            src="asset/plankton/plankton.svg"
+            class="absolute h-1/2 w-1/2 left-1/2 -translate-x-1/2 top-[50px]"
+          />
+
+          <div
+            id="text3-1"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            ที่มีขนาดเท่าแพลงค์ตอน
+          </div>
+        </div>
+      </div>
+      <!-- 4 ปลากินแพลงก์ตอน -->
+      <div class="container4" style="height: 2000vh">
+        <div
+          class="relative h-screen bg-[#1F529A] border-solid border-2 border-red-400"
+        >
+          <div class="h-screen">
+            <img
+              src="asset/bg/seabg4.png"
+              class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2"
+            />
+          </div>
+          <img
+            id="microplastic2"
+            src="asset/microplastic/microplastic.svg"
+            class="absolute h-1/3 w-1/3 left-1/2 -translate-x-1/2 top-[200px]"
+          />
+          <img
+            id="plankton2"
+            src="asset/plankton/plankton.svg"
+            class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"
+          />
+          <img
+            id="tuna1"
+            src="asset/fish/tuna.svg"
+            class="absolute opacity-0 top-[180px]"
+          />
+          <div
+            id="text4"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            จึงทำให้ปลาทะเลเข้าใจผิด
+          </div>
+          <div
+            id="text4-1"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            และกินไมโครพลาสติกเข้าท้องไปด้วย
+          </div>
+          <img
+            id="bg1"
+            src="asset/bg/seabg4-1.png"
+            class="absolute opacity-0 left-1/2 -translate-x-1/2 top-0"
+          />
+          <img
+            id="tuna2"
+            src="asset/fish/tuna.svg"
+            class="absolute opacity-0 top-[180px]"
+          />
+          <div
+            id="text4-2"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            แต่การที่ปลากินไมโครพลาสติก
+          </div>
+          <div
+            id="text4-3"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            ไม่ได้แปลว่าเป็นการกำจัด
+          </div>
+          <img
+            id="bg2"
+            src="asset/bg/seabg4-1.png"
+            class="absolute opacity-0 left-1/2 -translate-x-1/2 top-0"
+          />
+          <div
+            id="text4-5"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            แต่เป็นส่วนหนึ่งของจุดเริ่มต้น
+          </div>
+          <img
+            id="tunasteak"
+            src="asset/fish/tunasteak.svg"
+            class="absolute opacity-0 left-1/2 -translate-x-1/2 top-0"
+          />
+          <div
+            id="text4-6"
+            class="absolute text-white left-1/2 -translate-x-1/2 top-[490px]"
+          >
+            ของการเอาไมโครพลาสติกเข้าร่างกายมนุษย์
+          </div>
+        </div>
+      </div>
+      <!-- 5สาหร่ายเกาะพลาสติก -->
+      <div class="container5" style="height: 2200vh">
+        <div
+          class="relative h-screen bg-gradient-to-b from-[#1F529A] to-[#1A457E]">
+          <div class="h-screen">
+            <img
+              src="asset/bg/seabg4.png"
+              class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2"
+            />
+          </div>
+          <img
+            id="plastic5"
+            src="asset/bag/plastic1.svg"
+            class="h-1/4 w-1/4 absolute left-1/2 -translate-x-1/2 top-0"
+          />
+          <img
+            id="plastic5-1"
+            src="asset/bag/plastic2.svg"
+            class="h-1/4 w-1/4 absolute left-1/2 -translate-x-1/2 top-[220px]"
+          />
+        </div>
+
+
+    </div>
+  </body>
+  <footer>
+    <script src="scene1-3.js"></script>
+    <script src="scene4.js"></script>
+    <script src="scene5.js"></script>
+  </footer>
+</html>
