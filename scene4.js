@@ -187,6 +187,30 @@ tl4.fromTo(
   }
 );
 
+// เบ็ดตกปลาลงมา
+
+tl4.fromTo(
+  "#tuna2",
+  {
+    rotate: 0,
+  },
+  {
+    rotate: -90,
+    duration: 3,
+  }
+);
+
+tl4.fromTo(
+  "#tuna2",
+  {
+    y: 0,
+  },
+  {
+    y: -100,
+    duration: 3,
+  }
+);
+
 tl4.fromTo(
   "#bg2",
   {
@@ -206,8 +230,9 @@ tl4.fromTo(
     opacity: 0,
   },
   {
+    y: 200,
     opacity: 1,
-    duration: 1,
+    duration: 3,
   }
 );
 
@@ -233,6 +258,30 @@ tl4.fromTo(
     opacity: 0,
     duration: 3,
   }
+);
+
+tl4.fromTo(
+  "#hand1",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 3,
+  },
+  "<+=1"
+);
+
+tl4.fromTo(
+  "#hand2",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 3,
+  },
+  "<+=1"
 );
 
 tl4.fromTo(
