@@ -137,7 +137,7 @@ tl4.fromTo(
 );
 
 tl4.fromTo(
-  "#bg1",
+  "#bg4-1",
   {
     opacity: 0,
     x: -300,
@@ -234,7 +234,7 @@ tl4.fromTo(
 );
 
 tl4.fromTo(
-  "#bg2",
+  "#bg4-2",
   {
     opacity: 0,
   },
@@ -323,18 +323,6 @@ tl4.fromTo(
   },
   {
     opacity: 0,
-    duration: 3,
-  }
-);
-
-tl4.fromTo(
-  "#text4-7",
-  {
-    opacity: 0,
-  },
-  {
-    y: -10,
-    opacity: 1,
     duration: 3,
   }
 );

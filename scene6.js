@@ -24,15 +24,14 @@ tl6.fromTo(
 tl6.fromTo(
   "#turtle1",
   {
-    x: 60,
+    y: -60,
     opacity: 0,
   },
   {
-    x: -30,
+    y: 0,
     opacity: 1,
     duration: 1,
-  },
-  "<+=0.2"
+  }
 );
 
 tl6.fromTo(
@@ -42,7 +41,7 @@ tl6.fromTo(
     opacity: 0,
   },
   {
-    x: 20,
+    x: 0,
     opacity: 1,
     duration: 1,
   },
@@ -100,10 +99,10 @@ tl6.fromTo(
 tl6.fromTo(
   "#turtle1",
   {
-    x: -30,
+    y: 0,
   },
   {
-    x: 10,
+    y: -30,
     opacity: 1,
     duration: 1,
   },
@@ -113,10 +112,10 @@ tl6.fromTo(
 tl6.fromTo(
   "#turtle2",
   {
-    x: 20,
+    x: 0,
   },
   {
-    x: -10,
+    x: -20,
     duration: 1,
   },
   "<+=0.2"
@@ -196,4 +195,65 @@ tl6.fromTo(
     duration: 1,
   },
   "<+=0.2"
+);
+
+tl6.fromTo(
+  "#black6-1",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#plastic6",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  },
+  "<+="
+);
+
+tl6.fromTo(
+  "#black6-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#bg6-1",
+  {
+    opacity: 0,
+    x: -300,
+  },
+  {
+    x: 0,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl6.fromTo(
+  "#bg6-2",
+  {
+    opacity: 0,
+    x: -300,
+  },
+  {
+    x: 0,
+    opacity: 1,
+    duration: 3,
+  }
 );
