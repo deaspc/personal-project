@@ -80,7 +80,7 @@ tl3.fromTo(
     opacity: 0,
   },
   {
-    y: 250,
+    y: 300,
     opacity: 1,
     duration: 5,
     rotate: 25,

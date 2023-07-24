@@ -76,7 +76,8 @@ tl5.fromTo(
   {
     opacity: 1,
     duration: 1,
-  }
+  },
+  "<+=0.5"
 );
 
 tl5.fromTo(
@@ -91,17 +92,6 @@ tl5.fromTo(
 );
 
 tl5.fromTo(
-  "#text5-2",
-  {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-    duration: 1,
-  }
-);
-
-tl5.fromTo(
   "#plastic5-1",
   {
     opacity: 1,
@@ -110,5 +100,16 @@ tl5.fromTo(
     y: 200,
     opacity: 0,
     duration: 3,
+  }
+);
+
+tl5.fromTo(
+  "#text5-2",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
   }
 );
