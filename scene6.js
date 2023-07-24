@@ -20,3 +20,180 @@ tl6.fromTo(
     duration: 1,
   }
 );
+
+tl6.fromTo(
+  "#turtle1",
+  {
+    x: 60,
+    opacity: 0,
+  },
+  {
+    x: -30,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#turtle2",
+  {
+    x: -60,
+    opacity: 0,
+  },
+  {
+    x: 20,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#text6-1",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#turtle1",
+  {
+    x: -30,
+  },
+  {
+    x: 10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#turtle2",
+  {
+    x: 20,
+  },
+  {
+    x: -10,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-2",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-2",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#text6-3",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#turtle1",
+  {
+    opacity: 1,
+  },
+  {
+    rotate: 45,
+    y: 100,
+    opacity: 0,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#turtle2",
+  {
+    opacity: 1,
+  },
+  {
+    rotate: -45,
+    y: 100,
+    opacity: 0,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-3",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  },
+  "<+=0.2"
+);
