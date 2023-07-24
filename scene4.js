@@ -126,6 +126,17 @@ tl4.fromTo(
 );
 
 tl4.fromTo(
+  "#black4",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl4.fromTo(
   "#bg1",
   {
     opacity: 0,
@@ -212,7 +223,7 @@ tl4.fromTo(
 );
 
 tl4.fromTo(
-  "#black4",
+  "#black4-1",
   {
     opacity: 0,
   },
@@ -301,6 +312,51 @@ tl4.fromTo(
   {
     y: -10,
     opacity: 1,
+    duration: 3,
+  }
+);
+
+tl4.fromTo(
+  "#text4-6",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 3,
+  }
+);
+
+tl4.fromTo(
+  "#text4-7",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl4.fromTo(
+  "#black4-2",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl4.fromTo(
+  "#hand1, #hand2, #tunasteak",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
     duration: 3,
   }
 );
