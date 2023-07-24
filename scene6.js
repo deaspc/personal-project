@@ -258,6 +258,30 @@ tl6.fromTo(
 );
 
 tl6.fromTo(
+  "#text6-4",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-4",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
   "#jellyfish2",
   {
     opacity: 0,
@@ -266,6 +290,30 @@ tl6.fromTo(
   {
     y: 0,
     opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#text6-5",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-5",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
     duration: 1,
   }
 );
@@ -284,6 +332,30 @@ tl6.fromTo(
 );
 
 tl6.fromTo(
+  "#text6-5",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-5",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
   "#jellyfish4",
   {
     opacity: 0,
@@ -292,6 +364,30 @@ tl6.fromTo(
   {
     y: 0,
     opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#text6-5",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-5",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
     duration: 1,
   }
 );
@@ -336,10 +432,10 @@ tl6.fromTo(
 tl6.fromTo(
   "#black6-1",
   {
-    opacity: 1,
+    opacity: 0,
   },
   {
-    opacity: 0,
+    opacity: 1,
     duration: 1,
   }
 );
