@@ -50,10 +50,10 @@ tl5.fromTo(
     opacity: 0,
   },
   {
-    y: 140,
     opacity: 1,
     duration: 3,
-  }
+  },
+  "<+=0.5"
 );
 
 tl5.fromTo(
@@ -65,7 +65,7 @@ tl5.fromTo(
     opacity: 0,
     duration: 1,
   },
-  "<+=0.3"
+  "<+=0.5"
 );
 
 tl5.fromTo(

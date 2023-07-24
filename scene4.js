@@ -218,18 +218,7 @@ tl4.fromTo(
   },
   {
     opacity: 1,
-    duration: 1,
-  }
-);
-
-tl4.fromTo(
-  "#black4",
-  {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-    duration: 1,
+    duration: 3,
   }
 );
 
@@ -237,10 +226,8 @@ tl4.fromTo(
   "#bg2",
   {
     opacity: 0,
-    x: -300,
   },
   {
-    x: 0,
     opacity: 1,
     duration: 3,
   }
