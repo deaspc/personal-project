@@ -9,3 +9,14 @@ const tl6 = gsap.timeline({
     pinSpacing: false,
   },
 });
+
+tl6.fromTo(
+  "#plastic6",
+  {
+    opacity: 1,
+  },
+  {
+    y: 240,
+    duration: 1,
+  }
+);
