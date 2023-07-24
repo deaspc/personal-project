@@ -4,7 +4,7 @@ const tl5 = gsap.timeline({
     trigger: ".container5",
     pin: true, // pin the trigger element while active
     start: "top top", // when the top of the trigger hits the top of the viewport
-    end: "max", // end after scrolling 500px beyond the start
+    end: "bottom bottom", // end after scrolling 500px beyond the start
     scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
     pinSpacing: false,
   },
@@ -45,6 +45,18 @@ tl5.fromTo(
 );
 
 tl5.fromTo(
+  "#plastic5-1",
+  {
+    opacity: 0,
+  },
+  {
+    y: 140,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl5.fromTo(
   "#plastic5",
   {
     opacity: 1,
@@ -52,7 +64,8 @@ tl5.fromTo(
   {
     opacity: 0,
     duration: 1,
-  }
+  },
+  "<+=0.3"
 );
 
 tl5.fromTo(
@@ -64,19 +77,6 @@ tl5.fromTo(
     opacity: 1,
     duration: 1,
   }
-);
-
-tl5.fromTo(
-  "#plastic5-1",
-  {
-    opacity: 0,
-  },
-  {
-    y: 140,
-    opacity: 1,
-    duration: 3,
-  },
-  "<+=0.5"
 );
 
 tl5.fromTo(

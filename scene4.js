@@ -212,6 +212,28 @@ tl4.fromTo(
 );
 
 tl4.fromTo(
+  "#black4",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl4.fromTo(
+  "#black4",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl4.fromTo(
   "#bg2",
   {
     opacity: 0,
