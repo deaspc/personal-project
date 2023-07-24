@@ -241,7 +241,70 @@ tl6.fromTo(
   {
     x: 0,
     opacity: 1,
-    duration: 3,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#jellyfish1",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#jellyfish2",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#jellyfish3",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#jellyfish4",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#jellyfish1, #jellyfish2, #jellyfish3, #jellyfish4",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
   }
 );
 
@@ -255,5 +318,18 @@ tl6.fromTo(
     y: 0,
     opacity: 1,
     duration: 3,
+  }
+);
+
+tl6.fromTo(
+  "#jellyfish1",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
   }
 );
