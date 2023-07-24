@@ -249,10 +249,10 @@ tl6.fromTo(
   "#bg6-2",
   {
     opacity: 0,
-    x: -300,
+    y: 300,
   },
   {
-    x: 0,
+    y: 0,
     opacity: 1,
     duration: 3,
   }
