@@ -205,8 +205,7 @@ tl6.fromTo(
   {
     opacity: 1,
     duration: 1,
-  },
-  "<+=0.2"
+  }
 );
 
 tl6.fromTo(
@@ -322,14 +321,25 @@ tl6.fromTo(
 );
 
 tl6.fromTo(
-  "#jellyfish1",
+  "#jellyfish1, #jellyfish2, #jellyfish3, #jellyfish4",
   {
+    y: 300,
     opacity: 0,
-    y: 100,
   },
   {
-    y: 0,
+    y: 100,
     opacity: 1,
+    duration: 3,
+  }
+);
+
+tl6.fromTo(
+  "#black6-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
     duration: 1,
   }
 );

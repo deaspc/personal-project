@@ -11,6 +11,17 @@ const tl5 = gsap.timeline({
 });
 
 tl5.fromTo(
+  "#black5-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl5.fromTo(
   "#plastic5",
   {
     opacity: 0,
