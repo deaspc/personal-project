@@ -4,7 +4,7 @@ const tl6 = gsap.timeline({
     trigger: ".container6",
     pin: true, // pin the trigger element while active
     start: "top top", // when the top of the trigger hits the top of the viewport
-    end: "max", // end after scrolling 500px beyond the start
+    end: "bottom", // end after scrolling 500px beyond the start
     scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
     pinSpacing: false,
   },
@@ -433,6 +433,30 @@ tl6.fromTo(
 );
 
 tl6.fromTo(
+  "#text6-6",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-6",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
   "#leg",
   {
     x: -100,
@@ -442,6 +466,54 @@ tl6.fromTo(
     x: 0,
     opacity: 1,
     duration: 3,
+  }
+);
+
+tl6.fromTo(
+  "#text6-7",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-7",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
+  "#text6-8",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#text6-8",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
   }
 );
 
