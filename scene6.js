@@ -425,8 +425,33 @@ tl6.fromTo(
     opacity: 0,
   },
   {
-    y: 100,
+    y: 0,
     opacity: 1,
+    duration: 3,
+  },
+  "<+=0.2"
+);
+
+tl6.fromTo(
+  "#leg",
+  {
+    x: -100,
+    opacity: 0,
+  },
+  {
+    x: 0,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl6.fromTo(
+  "#leg, #jellyfish1, #jellyfish2, #jellyfish3, #jellyfish4",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
     duration: 3,
   }
 );
@@ -439,5 +464,6 @@ tl6.fromTo(
   {
     opacity: 1,
     duration: 1,
-  }
+  },
+  "<+=0.2"
 );
