@@ -20,3 +20,17 @@ tl7.fromTo(
     duration: 1,
   }
 );
+
+tl7.fromTo(
+  "#plastic7",
+  {
+    rotate: 45,
+    opacity: 0,
+  },
+  {
+    y: 300,
+    rotate: -45,
+    opacity: 1,
+    duration: 1,
+  }
+);
