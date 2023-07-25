@@ -9,3 +9,14 @@ const tl7 = gsap.timeline({
     pinSpacing: false,
   },
 });
+
+tl7.fromTo(
+  "#black7",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);

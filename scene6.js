@@ -395,7 +395,7 @@ tl6.fromTo(
 tl6.fromTo(
   "#jellyfish1, #jellyfish2, #jellyfish3, #jellyfish4",
   {
-    y: 300,
+    y: 0,
     opacity: 1,
   },
   {
