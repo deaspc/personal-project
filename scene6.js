@@ -13,9 +13,10 @@ const tl6 = gsap.timeline({
 tl6.fromTo(
   "#plastic6",
   {
-    opacity: 1,
+    opacity: 0,
   },
   {
+    opacity: 1,
     y: 240,
     duration: 1,
   }
@@ -129,7 +130,7 @@ tl6.fromTo(
   {
     y: -10,
     opacity: 1,
-    duration: 1,
+    duration: 3,
   },
   "<+=0.2"
 );
