@@ -4,7 +4,7 @@ const tl6 = gsap.timeline({
     trigger: ".container6",
     pin: true, // pin the trigger element while active
     start: "top top", // when the top of the trigger hits the top of the viewport
-    end: "bottom", // end after scrolling 500px beyond the start
+    end: "bottom bottom", // end after scrolling 500px beyond the start
     scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
     pinSpacing: false,
   },
