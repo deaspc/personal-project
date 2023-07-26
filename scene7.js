@@ -260,17 +260,6 @@ tl7.fromTo(
 );
 
 tl7.fromTo(
-  "#whale1",
-  {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-    duration: 1,
-  }
-);
-
-tl7.fromTo(
   "#bomb",
   {
     opacity: 0,
@@ -327,5 +316,5 @@ tl7.fromTo(
     opacity: 0,
     duration: 1,
   },
-  "<+=0.1"
+  "<+=0.4"
 );
