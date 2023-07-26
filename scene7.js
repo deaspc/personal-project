@@ -144,3 +144,62 @@ tl7.fromTo(
     duration: 1,
   }
 );
+
+tl7.fromTo(
+  "#whale1",
+  {
+    y: 0,
+  },
+  {
+    y: -100,
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl7.fromTo(
+  "#black7",
+  {
+    opacity: 0,
+  },
+  {
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl7.fromTo(
+  "#black7",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl7.fromTo(
+  "#sand",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl7.fromTo(
+  "#whale1",
+  {
+    y: 200,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
