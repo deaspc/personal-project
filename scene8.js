@@ -51,3 +51,62 @@ tl8.fromTo(
   },
   "<+=0.2"
 );
+
+tl8.fromTo(
+  "#text8-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-2",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-2",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+tl8.fromTo(
+  "#text8-3",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl8.fromTo(
+  "#text8-3",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
