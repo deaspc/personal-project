@@ -28,8 +28,24 @@ tl7.fromTo(
     opacity: 0,
   },
   {
-    y: 300,
+    y: 200,
     rotate: -45,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl7.fromTo(
+  "#whale1",
+  {
+    x: 60,
+    y: 100,
+    opacity: 0,
+  },
+  {
+    x: 0,
+    y: 0,
     opacity: 1,
     duration: 1,
   }
