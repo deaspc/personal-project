@@ -93,8 +93,7 @@ tl2.fromTo(
     opacity: 1,
     duration: 3,
     rotate: 60,
-  },
-  "<+=0.2"
+  }
 );
 
 tl2.fromTo(

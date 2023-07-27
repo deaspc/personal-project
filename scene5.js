@@ -82,7 +82,7 @@ tl5.fromTo(
 tl5.fromTo(
   "#microplastic5",
   {
-    y: 100,
+    y: 10,
     opacity: 0,
   },
   {

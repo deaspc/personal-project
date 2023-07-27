@@ -39,7 +39,7 @@ tl7.fromTo(
 tl7.fromTo(
   "#microplastic7",
   {
-    y: 100,
+    y: 5,
     opacity: 0,
   },
   {
