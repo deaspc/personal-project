@@ -80,6 +80,20 @@ tl5.fromTo(
 );
 
 tl5.fromTo(
+  "#microplastic5",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl5.fromTo(
   "#text5-2",
   {
     opacity: 0,
@@ -120,6 +134,19 @@ tl5.fromTo(
     opacity: 1,
   },
   {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl5.fromTo(
+  "#microplastic5",
+  {
+    y: 0,
+    opacity: 1,
+  },
+  {
+    y: -100,
     opacity: 0,
     duration: 1,
   }

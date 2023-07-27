@@ -37,6 +37,53 @@ const tl2 = gsap.timeline({
 });
 
 tl2.fromTo(
+  "#text2-1",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 3,
+  },
+  "<+=0.2"
+);
+
+tl2.fromTo(
+  "#text2-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 3,
+  }
+);
+
+tl2.fromTo(
+  "#text2-2",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl2.fromTo(
+  "#text2-2",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl2.fromTo(
   "#plastic2",
   {
     opacity: 0,
@@ -46,6 +93,99 @@ tl2.fromTo(
     opacity: 1,
     duration: 3,
     rotate: 60,
+  },
+  "<+=0.2"
+);
+
+tl2.fromTo(
+  "#text2-3",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl2.fromTo(
+  "#text2-3",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl2.fromTo(
+  "#text2-4",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl2.fromTo(
+  "#text2-4",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl2.fromTo(
+  "#text2-5",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl2.fromTo(
+  "#text2-5",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl2.fromTo(
+  "#text2-6, #icon2",
+  {
+    opacity: 0,
+  },
+  {
+    y: -10,
+    opacity: 1,
+    duration: 3,
+  }
+);
+
+tl2.fromTo(
+  "#text2-6, #icon2",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
   }
 );
 

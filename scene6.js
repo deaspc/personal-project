@@ -23,6 +23,19 @@ tl6.fromTo(
 );
 
 tl6.fromTo(
+  "#microplastic6",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl6.fromTo(
   "#turtle1",
   {
     y: -60,
@@ -47,6 +60,19 @@ tl6.fromTo(
     duration: 1,
   },
   "<+=0.2"
+);
+
+tl6.fromTo(
+  "#microplastic6",
+  {
+    y: 100,
+    opacity: 1,
+  },
+  {
+    y: 0,
+    opacity: 0,
+    duration: 1,
+  }
 );
 
 tl6.fromTo(

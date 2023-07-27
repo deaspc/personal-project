@@ -37,7 +37,20 @@ tl7.fromTo(
 );
 
 tl7.fromTo(
-  "#plastic7",
+  "#microplastic7",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl7.fromTo(
+  "#plastic7, #microplastic7",
   {
     opacity: 1,
   },
@@ -51,10 +64,9 @@ tl7.fromTo(
   "#whale1",
   {
     y: 400,
-    opacity: 1,
+    opacity: 0,
   },
   {
-    x: 0,
     y: 0,
     opacity: 1,
     duration: 1,
