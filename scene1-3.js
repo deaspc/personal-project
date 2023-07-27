@@ -1,12 +1,12 @@
 // scene1
 const tl1 = gsap.timeline({
   scrollTrigger: {
-    markers: true,
+    markers: false,
     trigger: ".container1",
-    pin: true, // pin the trigger element while active
-    start: "top top", // when the top of the trigger hits the top of the viewport
-    end: "bottom bottom", // end after scrolling 500px beyond the start
-    scrub: true, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    pin: true,
+    start: "top top",
+    end: "bottom bottom",
+    scrub: true,
     pinSpacing: false,
   },
 });
@@ -26,7 +26,7 @@ tl1.fromTo(
 // scene2
 const tl2 = gsap.timeline({
   scrollTrigger: {
-    markers: true,
+    markers: false,
     trigger: ".container2",
     pin: true, // pin the trigger element while active
     start: "top top", // when the top of the trigger hits the top of the viewport
@@ -191,7 +191,7 @@ tl2.fromTo(
 // scene3
 const tl3 = gsap.timeline({
   scrollTrigger: {
-    markers: true,
+    markers: false,
     trigger: ".container3",
     pin: true, // pin the trigger element while active
     start: "top top", // when the top of the trigger hits the top of the viewport

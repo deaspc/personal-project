@@ -1,7 +1,7 @@
 // scene 4
 const tl4 = gsap.timeline({
   scrollTrigger: {
-    markers: true,
+    markers: false,
     trigger: ".container4",
     pin: true,
     start: "top top",
