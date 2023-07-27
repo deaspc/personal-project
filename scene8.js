@@ -25,7 +25,56 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
-  "#microplastic1",
+  "#text8-1",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  },
+  "<+=0.2"
+);
+
+tl8.fromTo(
+  "#text8-1",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-2",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-2",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#microplastic8-1",
   {
     y: -100,
     opacity: 0,
@@ -39,9 +88,9 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
-  "#text8-1",
+  "#microplastic8-2",
   {
-    y: -10,
+    y: -100,
     opacity: 0,
   },
   {
@@ -53,39 +102,19 @@ tl8.fromTo(
 );
 
 tl8.fromTo(
-  "#text8-1",
+  "#microplastic8-3",
   {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-    duration: 1,
-  }
-);
-
-tl8.fromTo(
-  "#text8-2",
-  {
-    y: -10,
+    y: -100,
     opacity: 0,
   },
   {
     y: 0,
     opacity: 1,
     duration: 1,
-  }
+  },
+  "<+=0.2"
 );
 
-tl8.fromTo(
-  "#text8-2",
-  {
-    opacity: 1,
-  },
-  {
-    opacity: 0,
-    duration: 1,
-  }
-);
 tl8.fromTo(
   "#text8-3",
   {
@@ -102,6 +131,93 @@ tl8.fromTo(
 
 tl8.fromTo(
   "#text8-3",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-4",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-4",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-5",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#bgs6",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#bgs4",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#bgs3",
+  {
+    y: 100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-5",
   {
     opacity: 1,
   },
