@@ -288,3 +288,51 @@ tl8.fromTo(
     duration: 1,
   }
 );
+
+tl8.fromTo(
+  "#text8-7",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-7",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-8",
+  {
+    y: -10,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
+
+tl8.fromTo(
+  "#text8-8",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
