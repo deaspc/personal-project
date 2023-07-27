@@ -198,7 +198,18 @@ tl4.fromTo(
   }
 );
 
-// เบ็ดตกปลาลงมา
+tl4.fromTo(
+  "#rod",
+  {
+    y: -100,
+    opacity: 0,
+  },
+  {
+    y: 0,
+    opacity: 1,
+    duration: 1,
+  }
+);
 
 tl4.fromTo(
   "#tuna2",
@@ -219,6 +230,18 @@ tl4.fromTo(
   {
     y: -100,
     duration: 3,
+  }
+);
+
+tl4.fromTo(
+  "#rod, #tuna2",
+  {
+    opacity: 1,
+  },
+  {
+    y: -100,
+    opacity: 0,
+    duration: 2,
   }
 );
 
